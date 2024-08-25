@@ -1,4 +1,4 @@
-FROM python:3.9-slim-buster
+FROM python:latest
 
 LABEL Name="Python Flask Demo App" Version=1.4.2
 LABEL org.opencontainers.image.source = "https://github.com/Ayna27/python-demoapp.git"
